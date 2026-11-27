@@ -5,7 +5,7 @@
   <meta name="description" content="Интерактивный обзор производственной линейки и конкурентоспособности производителей аттракционов в России. Срез на ноябрь 2026 года.">
   <meta name="theme-color" content="#101d2a"><title>Конкурентная карта рынка аттракционов РФ — ГоркиLAND</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=conclusion-layout">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=matrix-guide">
 </head>
 <body>
 <div class="page-shell">
@@ -16,7 +16,22 @@
     <section class="section-head"><div><div class="eyebrow">КАРТА ИГРОКОВ</div><h2>Компании и их специализация</h2></div><div class="count-chip"><span id="visible-count">12</span> компаний</div></section>
     <section class="explorer"><div class="filters-head"><div id="filters" class="filters"></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Найти компанию или модель…" aria-label="Найти компанию или модель"></label></div><div id="company-grid" class="company-grid"></div></section>
     <section class="detail-wrap"><div class="section-head compact"><div><div class="eyebrow">РАЗБОР КОМПАНИИ</div><h2>Профиль и конкурентная позиция</h2></div><span class="detail-hint">Выберите компанию выше</span></div><article id="company-detail" class="detail-card"></article></section>
-    <section class="matrix-section"><div class="section-head compact"><div><div class="eyebrow">СРАВНЕНИЕ ПО НАПРАВЛЕНИЯМ</div><h2>Сравнительная матрица</h2></div><span class="matrix-note">Качественная оценка по открытой линейке и материалам производителей</span></div><div class="table-wrap"><table><thead><tr><th>Компания</th><th>Крупные</th><th>Семейные</th><th>Проектирование, поставка и монтаж</th><th>Каталог</th><th>Пересечение с ГоркиLAND</th></tr></thead><tbody id="matrix-body"></tbody></table></div><div class="legend"><span>Шкала категорий:</span><i class="legend-dot low"></i> ограниченная <i class="legend-dot mid"></i> средняя <i class="legend-dot high"></i> высокая</div></section>
+    <section class="matrix-section" id="comparison" aria-labelledby="comparison-title">
+      <div class="section-head compact">
+        <div class="eyebrow">Сравнение по направлениям</div>
+        <h2 id="comparison-title">Сравнительная матрица</h2>
+      </div>
+      <div class="matrix-guide">
+        <p>Матрица помогает увидеть, в каких закупках ГоркиLAND сталкивается с прямой конкуренцией, где у компании сильное предложение и по каким направлениям стоит сравнить себя с другими поставщиками. Оценки основаны на открытых каталогах и описаниях услуг. «Пересечение с ГоркиLAND» показывает, насколько предложения компаний совпадают.</p>
+        <h3>Что видно из сравнения</h3>
+        <ul>
+          <li><strong>Крупные аттракционы.</strong> Это сильное направление ГоркиLAND. Высокие оценки в этой категории и по пересечению с ГоркиLAND получили «МИР», «ГРОС» и «Сказка».</li>
+          <li><strong>Семейный ассортимент.</strong> «ГРОС», «Восток», «Аттракцион Экстра», «АТТРАПЛАСТ», «Сказка» и «Бизнес Парк» получили более высокую оценку, чем ГоркиLAND. Отдельно в карточке ГоркиLAND отмечено, что у компании пока нет детской линейки.</li>
+          <li><strong>Открытость каталога.</strong> ГоркиLAND получил среднюю оценку. Данные о комплектации, ориентировочной цене и сроках поставки помогут заказчикам сравнивать предложения.</li>
+        </ul>
+        <p class="matrix-filter-note">Фильтры над карточками также меняют список компаний в таблице. Выберите «Все», чтобы увидеть полное сравнение.</p>
+      </div>
+      <div class="table-wrap"><table><thead><tr><th>Компания</th><th>Крупные</th><th>Семейные</th><th>Проектирование, поставка и монтаж</th><th>Каталог</th><th>Пересечение с ГоркиLAND</th></tr></thead><tbody id="matrix-body"></tbody></table></div><div class="legend"><span>Шкала категорий:</span><i class="legend-dot low"></i> ограниченная <i class="legend-dot mid"></i> средняя <i class="legend-dot high"></i> высокая</div></section>
     <section class="strategy" id="conclusion" aria-labelledby="conclusion-title">
       <div class="strategy-copy">
         <div class="eyebrow conclusion-label">Вывод</div>
