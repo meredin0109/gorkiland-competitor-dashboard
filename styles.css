@@ -48,3 +48,10 @@ footer{min-height:83px;border-top:1px solid #e5eaed;padding:17px 1px 23px;displa
 .matrix-guide ul { margin: 0; padding-left: 20px; }
 .matrix-guide li + li { margin-top: 4px; }
 .matrix-guide .matrix-filter-note { margin-top: 12px; }
+
+.filter-note {
+  margin: 0 0 14px;
+  color: #4e6068;
+  font-size: 12px;
+}
+.filter-note strong { color: var(--ink); }
